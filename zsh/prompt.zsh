@@ -77,6 +77,6 @@ set_prompt () {
 }
 
 precmd() {
-  title "zsh" "%n@%m $(directory_name)" "%55<...<%~"
+  title "zsh" "%m $(directory_name)" "%55<...<%~"
   set_prompt
 }
