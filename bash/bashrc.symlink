@@ -1,0 +1,3 @@
+# default to zsh
+export SHELL=/bin/zsh
+exec /bin/zsh -l

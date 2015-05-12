@@ -1,35 +1,72 @@
-'global':
-  'editor':
-    'showIndentGuide': true
-    'fontFamily': 'Menlo'
-    'fontSize': 15
-    'invisibles': {}
-  'core':
-    'ignoredNames': [
-      '.bundle'
-      '.git'
-      'log'
-      'repositories'
-      'tmp'
-      'vendor'
+"*":
+  "exception-reporting":
+    userId: "eab12bf7-fff7-4cf2-4166-58577e0b841d"
+  "release-notes":
+    viewedVersion: "0.95.0"
+  welcome:
+    showOnStartup: false
+  metrics:
+    userId: "d80946a38ef4b5192689edaece41d098135db89d"
+  editor:
+    fontFamily: "Consolas"
+    showInvisibles: true
+    useShadowDOM: true
+    invisibles: {}
+    showIndentGuide: true
+  core:
+    disabledPackages: [
+      "feedback"
+      "atom-csscomb"
+      "aural-coding"
+      "atom-beautifier"
+      "atom-license"
+      "atom-spotify"
+      "linter"
+      "linter-scss-lint"
+      "terminal"
+      "minimap"
+      "atom-rails"
+      "autocomplete-plus"
+      "language-css"
     ]
-    'themes': [
-      'unity-ui'
-      'glacier-syntax'
+    themes: [
+      "one-dark-ui"
+      "predawn-syntax"
     ]
-    'hideGitIgnoredFiles': true
-    'disabledPackages': [
-      'background-tips'
-      'exception-reporting'
-      'metrics'
+  "spell-check":
+    grammars: [
+      "source.gfm"
+      "text.git-commit"
+      "text.plain"
     ]
-  'spell-check':
-    'grammars': [
-      'text.plain'
-      'source.gfm'
-      'text.git-commit'
+  whitespace:
+    ignoreWhitespaceOnCurrentLine: false
+  "tree-view":
+    hideIgnoredNames: true
+  autocomplete:
+    includeCompletionsFromAllBuffers: true
+  autoprefixer:
+    browsers: [
+      "last 2 versions"
     ]
-  'welcome':
-    'showOnStartup': false
-  'release-notes':
-    'viewedVersion': '0.89.0'
+  "markdown-preview":
+    grammars: [
+      "source.gfm"
+      "source.litcoffee"
+      "text.plain"
+      "text.plain.null-grammar"
+    ]
+  "atom-lint":
+    "scss-lint":
+      path: "/Users/jonrohan/github/github/bin/scss-lint"
+    showViolationMetadata: false
+  dash:
+    grammars: ""
+  "autocomplete-plus":
+    includeCompletionsFromAllBuffers: true
+  linter:
+    showStatusBarWhenCursorIsInErrorRange: true
+  "css-comb":
+    userConfig: true
+    config: "custom"
+  "autoclose-html": {}
