@@ -4,8 +4,10 @@ else
   export PS1='%3~$(git_info_for_prompt)%# '
 fi
 
-export LSCOLORS="exfxcxdxbxegedabagacad"
-export CLICOLOR=true
+# Cli Colors
+export CLICOLOR=1
+# use yellow for dir's
+export LSCOLORS=dxfxcxdxbxegedabagacad
 
 fpath=($ZSH/functions $fpath)
 
