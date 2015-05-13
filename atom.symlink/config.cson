@@ -14,21 +14,7 @@
     invisibles: {}
     showIndentGuide: true
   core:
-    disabledPackages: [
-      "feedback"
-      "atom-csscomb"
-      "aural-coding"
-      "atom-beautifier"
-      "atom-license"
-      "atom-spotify"
-      "linter"
-      "linter-scss-lint"
-      "terminal"
-      "minimap"
-      "atom-rails"
-      "autocomplete-plus"
-      "language-css"
-    ]
+    disabledPackages: []
     themes: [
       "one-dark-ui"
       "predawn-syntax"
@@ -70,3 +56,5 @@
     userConfig: true
     config: "custom"
   "autoclose-html": {}
+  minimap: {}
+  "atom-alignment": {}

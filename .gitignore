@@ -6,5 +6,7 @@ atom.symlink/storage
 atom.symlink/themes
 atom.symlink/dev
 atom.symlink/npm-debug.log
+atom.symlink/.apm
+atom.symlink/atompackages
 
 git/gitconfig.symlink
