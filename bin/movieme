@@ -2,8 +2,7 @@
 #
 # MOVIE ME as in: "MOVIE ME AN ANIMATED GIF FROM THIS MOVIE, DAMMIT"
 #
-# Creates an animated gif from a movie file. Uploads to CloudApp. You must also
-# have `gifme` and `cloudapp` in your $PATH.
+# Creates an animated gif from a movie file.
 #
 #   $1 - the path to the movie we're converting.
 #   $2 - the start time of the finished product.
@@ -17,14 +16,5 @@
 #   ~/Desktop/dr-strangelove.mp4 23:12 3
 #   ~/Desktop/holman-backflip-on-fire.mov 3.9 1.75
 
-# cleanup
-rm -rf /tmp/movieme
-
-# create tmp dir
-mkdir -p /tmp/movieme
-
-# split the movie into constituent frames
-ffmpeg -i $1 -f image2 -vf "scale=iw*sar:ih" -ss $2 -t $3 -r 7 /tmp/movieme/d-%05d.png
-
-# ANIMATE
-gifme /tmp/movieme/* -d 0
+# Use ffmpeg to export gif
+ffmpeg -i $1 -loop 0 -vf "scale=iw/2.5:-1" -ss $2 -t $3 -r 7 ./$1.gif

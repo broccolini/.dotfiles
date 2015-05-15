@@ -14,10 +14,9 @@
     invisibles: {}
     showIndentGuide: true
   core:
-    disabledPackages: []
     themes: [
       "one-dark-ui"
-      "predawn-syntax"
+      "base16-tomorrow-dark-theme"
     ]
   "spell-check":
     grammars: [
@@ -51,10 +50,20 @@
   "autocomplete-plus":
     includeCompletionsFromAllBuffers: true
   linter:
-    showStatusBarWhenCursorIsInErrorRange: true
+    statusBar: "Show error if the cursor is in range"
+    lintOnEditorFocus: false
+    lintOnSave: false
+    lintDebug: true
+    subtleLinterErrors: [
+      "rubocop"
+    ]
   "css-comb":
     userConfig: true
     config: "custom"
   "autoclose-html": {}
   minimap: {}
   "atom-alignment": {}
+  "linter-scss-lint":
+    scssLintExecutablePath: "/opt/boxen/rbenv/shims/"
+  "linter-rubocop":
+    rubocopExecutablePath: "/opt/boxen/rbenv/shims/rubocop"
