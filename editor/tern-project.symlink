@@ -5,6 +5,7 @@
   ],
   "plugins": {
     "complete_strings": {},
+    "node": {},
     "doc_comment": {
      "fullDocs": true
     }
