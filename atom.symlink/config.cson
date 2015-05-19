@@ -8,11 +8,12 @@
   metrics:
     userId: "d80946a38ef4b5192689edaece41d098135db89d"
   editor:
-    fontFamily: "Consolas"
     showInvisibles: true
     useShadowDOM: true
-    invisibles: {}
+    invisibles:
+      {}
     showIndentGuide: true
+    fontFamily: "Consolas"
   core:
     themes: [
       "one-dark-ui"
@@ -41,10 +42,6 @@
       "text.plain"
       "text.plain.null-grammar"
     ]
-  "atom-lint":
-    "scss-lint":
-      path: "/Users/jonrohan/github/github/bin/scss-lint"
-    showViolationMetadata: false
   dash:
     grammars: ""
   "autocomplete-plus":
@@ -60,10 +57,13 @@
   "css-comb":
     userConfig: true
     config: "custom"
-  "autoclose-html": {}
-  minimap: {}
-  "atom-alignment": {}
+  "autoclose-html":
+    {}
+  minimap:
+    {}
+  "atom-alignment":
+    {}
   "linter-scss-lint":
     scssLintExecutablePath: "/opt/boxen/rbenv/shims/"
   "linter-rubocop":
-    rubocopExecutablePath: "/opt/boxen/rbenv/shims/rubocop"
+    rubocopExecutablePath: "/opt/boxen/rbenv/shims/"
