@@ -1,5 +1,6 @@
 #compdef c
 _files -W $PROJECTS -/
+_files -W $WORKPROJECTS -/
 _files -W $GOPATH/src/github.com -/
 
 # See further documentation in `functions/c`.
