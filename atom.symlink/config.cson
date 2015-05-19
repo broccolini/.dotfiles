@@ -51,13 +51,12 @@
     statusBar: "Show error if the cursor is in range"
     lintOnEditorFocus: false
     lintOnSave: false
-    lintDebug: true
     subtleLinterErrors: [
       "rubocop"
     ]
   "css-comb":
     userConfig: true
-    config: "custom"
+    config: "common"
   "autoclose-html":
     {}
   minimap:
