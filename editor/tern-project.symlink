@@ -1,0 +1,12 @@
+{
+  "libs": [
+    "browser",
+    "jquery"
+  ],
+  "plugins": {
+    "complete_strings": {},
+    "doc_comment": {
+     "fullDocs": true
+    }
+  }
+}

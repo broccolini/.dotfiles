@@ -67,3 +67,7 @@
     scssLintExecutablePath: "/opt/boxen/rbenv/shims/"
   "linter-rubocop":
     rubocopExecutablePath: "/opt/boxen/rbenv/shims/"
+  "toggle-quotes":
+    {}
+  "atom-ternjs":
+    coffeeScript: true
