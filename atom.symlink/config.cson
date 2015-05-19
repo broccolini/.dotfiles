@@ -14,6 +14,7 @@
       {}
     showIndentGuide: true
     fontFamily: "Consolas"
+    fontSize: 15
   core:
     themes: [
       "one-dark-ui"
