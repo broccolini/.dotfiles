@@ -16,6 +16,7 @@
         br = branch
         cp = cherry-pick
         up = pull --rebase
+        cut = checkout -b
         promote = !$ZSH/bin/git-promote
         wtf     = !$ZSH/bin/git-wtf
         clean-merged      = !$ZSH/bin/git-clean-merged

@@ -53,6 +53,7 @@
     lintOnSave: false
     subtleLinterErrors: [
       "rubocop"
+      "scss-lint"
     ]
   "css-comb":
     userConfig: true
@@ -64,10 +65,13 @@
   "atom-alignment":
     {}
   "linter-scss-lint":
-    scssLintExecutablePath: "/opt/boxen/rbenv/shims/"
+    executablePath: "/opt/boxen/rbenv/shims/"
   "linter-rubocop":
-    rubocopExecutablePath: "/opt/boxen/rbenv/shims/"
+    executablePath: "/opt/boxen/rbenv/shims/"
   "toggle-quotes":
     {}
   "atom-ternjs":
     coffeeScript: true
+  "file-icons":
+    coloured: false
+    onChanges: true
