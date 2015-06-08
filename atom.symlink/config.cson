@@ -20,6 +20,9 @@
       "one-dark-ui"
       "base16-tomorrow-dark-theme"
     ]
+    disabledPackages: [
+      "atom-color-highlight"
+    ]
   "spell-check":
     grammars: [
       "source.gfm"
@@ -75,3 +78,7 @@
   "file-icons":
     coloured: false
     onChanges: true
+  "one-dark-ui":
+    {}
+  tabs:
+    usePreviewTabs: true
