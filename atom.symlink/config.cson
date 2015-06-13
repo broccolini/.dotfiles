@@ -10,8 +10,7 @@
   editor:
     showInvisibles: true
     useShadowDOM: true
-    invisibles:
-      {}
+    invisibles: {}
     showIndentGuide: true
     fontFamily: "Consolas"
     fontSize: 15
@@ -61,24 +60,19 @@
   "css-comb":
     userConfig: true
     config: "common"
-  "autoclose-html":
-    {}
-  minimap:
-    {}
-  "atom-alignment":
-    {}
+  "autoclose-html": {}
+  minimap: {}
+  "atom-alignment": {}
   "linter-scss-lint":
     executablePath: "/opt/boxen/rbenv/shims/"
   "linter-rubocop":
     executablePath: "/opt/boxen/rbenv/shims/"
-  "toggle-quotes":
-    {}
+  "toggle-quotes": {}
   "atom-ternjs":
     coffeeScript: true
   "file-icons":
     coloured: false
     onChanges: true
-  "one-dark-ui":
-    {}
+  "one-dark-ui": {}
   tabs:
     usePreviewTabs: true

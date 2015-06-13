@@ -10,3 +10,5 @@ atom.symlink/.apm
 atom.symlink/atompackages
 
 git/gitconfig.symlink
+
+vim/vim.symlink/bundle
