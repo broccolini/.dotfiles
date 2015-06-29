@@ -1,0 +1,4 @@
+'.source.js':
+  'node require':
+    'prefix': 'varreq'
+    'body': "var $1 = require('$1');"
