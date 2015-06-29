@@ -21,6 +21,7 @@
     ]
     disabledPackages: [
       "atom-color-highlight"
+      "linter-rubocop"
     ]
   "spell-check":
     grammars: [
@@ -51,20 +52,21 @@
     includeCompletionsFromAllBuffers: true
   linter:
     statusBar: "Show error if the cursor is in range"
-    lintOnEditorFocus: false
-    lintOnSave: false
-    subtleLinterErrors: [
-      "rubocop"
-      "scss-lint"
-    ]
+    lintDebug: false
+    clearOnChange: true
+    lintOnChange: true
   "css-comb":
     userConfig: true
     config: "common"
   "autoclose-html": {}
-  minimap: {}
+  minimap:
+    plugins:
+      "git-diff": true
+      linter: true
+      "find-and-replace": true
   "atom-alignment": {}
   "linter-scss-lint":
-    executablePath: "/opt/boxen/rbenv/shims/"
+    executablePath: "/opt/boxen/rbenv/shims/scss-lint"
   "linter-rubocop":
     executablePath: "/opt/boxen/rbenv/shims/"
   "toggle-quotes": {}
