@@ -61,7 +61,7 @@
   "autoclose-html": {}
   minimap:
     plugins:
-      "git-diff": true
+      "git-diff": false
       linter: true
       "find-and-replace": true
   "atom-alignment": {}
