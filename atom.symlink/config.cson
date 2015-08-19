@@ -13,7 +13,7 @@
     invisibles: {}
     showIndentGuide: true
     fontFamily: "Consolas"
-    fontSize: 15
+    fontSize: 16
   core:
     themes: [
       "one-dark-ui"
@@ -55,6 +55,9 @@
     lintDebug: false
     clearOnChange: true
     lintOnChange: true
+    ignoredMessageTypes: [
+      "warning"
+    ]
   "css-comb":
     userConfig: true
     config: "common"

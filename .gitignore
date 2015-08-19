@@ -12,3 +12,5 @@ atom.symlink/atompackages
 git/gitconfig.symlink
 
 vim/vim.symlink/bundle
+
+.DS_Store
