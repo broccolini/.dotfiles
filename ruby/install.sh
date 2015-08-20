@@ -1,5 +1,7 @@
 #!/bin/sh
 
+yes N | rbenv install $(cat ~/.ruby-version)
+
 gems=(
   jekyll
   rubocop
