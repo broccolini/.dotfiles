@@ -21,7 +21,6 @@
     ]
     disabledPackages: [
       "atom-color-highlight"
-      "linter-rubocop"
     ]
   "spell-check":
     grammars: [
@@ -68,10 +67,8 @@
       linter: true
       "find-and-replace": true
   "atom-alignment": {}
-  "linter-scss-lint":
-    executablePath: "/opt/boxen/rbenv/shims/scss-lint"
-  "linter-rubocop":
-    executablePath: "/opt/boxen/rbenv/shims/"
+  "linter-scss-lint": {}
+  "linter-rubocop": {}
   "toggle-quotes": {}
   "atom-ternjs":
     coffeeScript: true
@@ -81,3 +78,4 @@
   "one-dark-ui": {}
   tabs:
     usePreviewTabs: true
+  "linter-write-good": {}
