@@ -7,3 +7,5 @@ gem: --no-ri --no-rdoc
 :sources:
 - http://rubygems.org
 :backtrace: false
+install: --no-rdoc --no-ri
+update:  --no-rdoc --no-ri

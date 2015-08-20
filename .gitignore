@@ -1,13 +1,13 @@
-atom.symlink/.node-gyp
-atom.symlink/.storage
-atom.symlink/compile-cache/
-atom.symlink/packages
-atom.symlink/storage
-atom.symlink/themes
-atom.symlink/dev
-atom.symlink/npm-debug.log
-atom.symlink/.apm
-atom.symlink/atompackages
+editor/atom.symlink/.node-gyp
+editor/atom.symlink/.storage
+editor/atom.symlink/compile-cache/
+editor/atom.symlink/packages
+editor/atom.symlink/storage
+editor/atom.symlink/themes
+editor/atom.symlink/dev
+editor/atom.symlink/npm-debug.log
+editor/atom.symlink/.apm
+editor/atom.symlink/atompackages
 
 git/gitconfig.symlink
 

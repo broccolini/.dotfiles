@@ -21,7 +21,22 @@ then
 
 fi
 
-# Install homebrew packages
-brew install grc coreutils spark node npm
+brew_packages=(
+  coreutils
+  ffmpeg
+  grc
+  imagemagick
+  node
+  npm
+  rbenv
+  ruby-build
+  spark
+  youtube-dl
+)
+
+for i in "${brew_packages[@]}"
+do
+	brew install $i
+done
 
 exit 0
