@@ -1,6 +1,7 @@
 #!/bin/sh
 
 yes N | rbenv install $(cat ~/.ruby-version)
+rbenv global $(cat ~/.ruby-version)
 
 gems=(
   jekyll
