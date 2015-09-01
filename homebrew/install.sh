@@ -24,6 +24,7 @@ fi
 brew_packages=(
   coreutils
   ffmpeg
+  go13
   grc
   imagemagick
   node
