@@ -105,8 +105,10 @@
 		<key>uninstalled</key>
 		<dict/>
 	</dict>
+	<key>DHWebViewIsDark</key>
+	<false/>
 	<key>annotationsAreShown</key>
-	<true/>
+	<false/>
 	<key>docsets</key>
 	<dict>
 		<key>keywords</key>
@@ -207,9 +209,9 @@
 		</dict>
 	</dict>
 	<key>isPinned</key>
-	<true/>
+	<false/>
 	<key>menuIconBehavior</key>
-	<integer>1</integer>
+	<integer>0</integer>
 	<key>placeholderDelimiter</key>
 	<string>__</string>
 	<key>profiles</key>
@@ -236,16 +238,16 @@
 	<key>searchKey</key>
 	<dict>
 		<key>keyCode</key>
-		<integer>-1</integer>
+		<integer>44</integer>
 		<key>modifiers</key>
-		<integer>8395520</integer>
+		<integer>6144</integer>
 	</dict>
 	<key>shouldRestoreTabs</key>
-	<true/>
+	<false/>
 	<key>shouldShowStatusIcon</key>
-	<false/>
+	<true/>
 	<key>shouldStartAtLogin</key>
-	<false/>
+	<true/>
 	<key>shouldSyncBookmarks</key>
 	<true/>
 	<key>shouldSyncDocsets</key>
@@ -255,7 +257,7 @@
 	<key>shouldSyncView</key>
 	<true/>
 	<key>showInDock</key>
-	<true/>
+	<false/>
 	<key>showSearchFallbacks</key>
 	<true/>
 	<key>versionedDHCheatRepo</key>
@@ -336,6 +338,6 @@
 		<dict/>
 	</dict>
 	<key>windowStyle</key>
-	<string>Standard</string>
+	<string>HUD</string>
 </dict>
 </plist>
