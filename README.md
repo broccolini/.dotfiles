@@ -1,25 +1,37 @@
-## install
+# .dotfiles
 
-Run this:
+These are my `.dotfiles` - *The files that live in my home directory which set configuration on my machine.* Suggestions welcome read over the [contributing](/CONTRIBUTING.md) guidelines.
+
+The format and organization was heavily borrowed from [Zach Holman](https://github.com/holman/dotfiles). I've made changes to include some front end things that I tend to use a lot.
+
+- Editor
+  - Atom setup and install
+  - Dash.app settings
+  - All my linting configuration
+- Setup node, and install npm packages I use.
+
+## Install
+
+If you want your dotfiles to be like mine, here's how you install them.
 
 ```sh
-git clone https://github.com/holman/dotfiles.git ~/.dotfiles
+git clone https://github.com/jonrohan/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 script/bootstrap
+script/install
 ```
 
-This will symlink the appropriate files in `.dotfiles` to your home directory.
-Everything is configured and tweaked within `~/.dotfiles`.
+`script/bootstrap` will symlink all the `*.symlink` files and folders to links in `~/.*`.
 
-The main file you'll want to change right off the bat is `zsh/zshrc.symlink`,
-which sets up a few paths that'll be different on your particular machine.
+`script/install` will run every `*/install.sh` file in each folder. These are usually used to install packages or move things into place.
 
-`dot` is a simple script that installs some dependencies, sets sane OS X
-defaults, and so on. Tweak this script, and occasionally run `dot` from
-time to time to keep your environment fresh and up-to-date. You can find
-this script in `bin/`.
+## Related
 
-## thanks
+* [Zach Holman's dotfiles](http://github.com/holman/dotfiles)
+* [Node.js open source software template](https://github.com/jonrohan/nodejs-oss-template)
 
-This is forked from [Zach Holman](http://github.com/holman)' excellent
-[dotfiles](http://github.com/holman/dotfiles). And personalized for my use.
+## License
+
+Originally forked from [@holman](http://github.com/holman/dotfiles).
+
+MIT &copy; [Jon Rohan](http://jonrohan.codes)
