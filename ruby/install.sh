@@ -7,6 +7,7 @@ gems=(
   jekyll
   rubocop
   scss_lint
+  bundler
 )
 
 for i in "${gems[@]}"
