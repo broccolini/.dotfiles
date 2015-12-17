@@ -5,16 +5,17 @@
 # Creates an animated gif from a movie file.
 #
 #   $1 - the path to the movie we're converting.
-#   $2 - the start time of the finished product.
-#        This can be in seconds, or it also accepts the "hh:mm:ss[.xxx]" format.
-#   $3 - the duration of the video sequence.
-#        This can be in seconds, or it also accepts the "hh:mm:ss[.xxx]" format.
+#   $2 - scale, by default it does 1 to 1 size
 #
 # Examples:
 #
-#   movieme <path> <start-time> <duration>
-#   ~/Desktop/dr-strangelove.mp4 23:12 3
-#   ~/Desktop/holman-backflip-on-fire.mov 3.9 1.75
+#   movieme <path> <scale>
+#   movieme ~/Desktop/dr-strangelove.mp4
+#   movieme ~/Desktop/holman-backflip-on-fire.mov
 
-# Use ffmpeg to export gif
-ffmpeg -i $1 -loop 0 -vf "scale=iw/2.5:-1" -ss $2 -t $3 -r 7 ./$1.gif
+palette="/tmp/palette.png"
+
+filters="fps=15,scale=${2:-iw}:-1:flags=lanczos"
+
+ffmpeg -v warning -i $1 -vf "$filters,palettegen" -y $palette
+ffmpeg -v warning -i $1 -i $palette -lavfi "$filters [x]; [x][1:v] paletteuse" -y ./$1.gif

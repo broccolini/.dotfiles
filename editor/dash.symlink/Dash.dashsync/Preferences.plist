@@ -193,6 +193,11 @@
 				<key>date</key>
 				<date>2015-06-10T16:52:19Z</date>
 			</dict>
+			<key>http://kapeli.com/feeds/UnderscoreJS.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2015-11-02T00:42:01Z</date>
+			</dict>
 		</dict>
 		<key>uninstalled</key>
 		<dict>

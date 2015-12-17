@@ -7,6 +7,7 @@ editor/atom.symlink/themes
 editor/atom.symlink/dev
 editor/atom.symlink/npm-debug.log
 editor/atom.symlink/.apm
+editor/atom.symlink/blob-store
 
 git/gitconfig.symlink
 
