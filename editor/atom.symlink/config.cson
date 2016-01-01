@@ -1,0 +1,85 @@
+"*":
+  "exception-reporting":
+    userId: "eab12bf7-fff7-4cf2-4166-58577e0b841d"
+  "release-notes":
+    viewedVersion: "0.95.0"
+  welcome:
+    showOnStartup: false
+  metrics:
+    userId: "d80946a38ef4b5192689edaece41d098135db89d"
+  editor:
+    showInvisibles: true
+    useShadowDOM: true
+    invisibles: {}
+    showIndentGuide: true
+    fontFamily: "Consolas"
+    fontSize: 17
+  core:
+    themes: [
+      "one-dark-ui"
+      "duotone-dark-syntax"
+    ]
+  "spell-check":
+    grammars: [
+      "source.gfm"
+      "text.git-commit"
+      "text.plain"
+    ]
+  whitespace:
+    ignoreWhitespaceOnCurrentLine: false
+  "tree-view":
+    hideIgnoredNames: true
+  autocomplete:
+    includeCompletionsFromAllBuffers: true
+  autoprefixer:
+    browsers: [
+      "last 2 versions"
+    ]
+  "markdown-preview":
+    grammars: [
+      "source.gfm"
+      "source.litcoffee"
+      "text.plain"
+      "text.plain.null-grammar"
+    ]
+  dash: {}
+  "autocomplete-plus":
+    includeCompletionsFromAllBuffers: true
+  linter:
+    statusBar: "Show error if the cursor is in range"
+    lintDebug: false
+    clearOnChange: true
+    lintOnChange: false
+    gutterPosition: "Left"
+    displayLinterInfo: false
+    showErrorTabProject: false
+    statusIconScope: "File"
+    ignoreMatchedFiles: "/**/*.min{js,css},/**/*.html.erb"
+    showErrorPanel: false
+  "css-comb":
+    userConfig: true
+    config: "common"
+  "autoclose-html": {}
+  minimap:
+    plugins:
+      "git-diff": false
+      linter: true
+      "find-and-replace": true
+  "atom-alignment": {}
+  "linter-scss-lint":
+    executablePath: "/Users/jonrohan/.rbenv/shims/scss-lint"
+  "linter-rubocop":
+    command: "/Users/jonrohan/.rbenv/shims/rubocop"
+  "toggle-quotes": {}
+  "atom-ternjs":
+    coffeeScript: true
+  "file-icons":
+    coloured: false
+    onChanges: true
+  "one-dark-ui": {}
+  tabs:
+    usePreviewTabs: true
+  "linter-write-good": {}
+  Zen:
+    typewriter: true
+    softWrap: true
