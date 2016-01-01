@@ -19,3 +19,6 @@
 
 'body':
   'cmd-ctrl-,': 'window:toggle-full-screen'
+
+'atom-text-editor:not(.mini)':
+  'cmd-l': 'linter:togglePanel'
