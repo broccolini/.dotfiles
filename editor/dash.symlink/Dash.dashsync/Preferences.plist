@@ -219,7 +219,7 @@
 		</dict>
 	</dict>
 	<key>isPinned</key>
-	<false/>
+	<true/>
 	<key>menuIconBehavior</key>
 	<integer>0</integer>
 	<key>placeholderDelimiter</key>
@@ -267,7 +267,7 @@
 	<key>shouldSyncView</key>
 	<true/>
 	<key>showInDock</key>
-	<false/>
+	<true/>
 	<key>showSearchFallbacks</key>
 	<true/>
 	<key>versionedDHCheatRepo</key>
