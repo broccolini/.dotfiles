@@ -1,40 +1,65 @@
 "*":
-  "exception-reporting":
-    userId: "eab12bf7-fff7-4cf2-4166-58577e0b841d"
-  "release-notes":
-    viewedVersion: "0.95.0"
-  welcome:
-    showOnStartup: false
-  metrics:
-    userId: "d80946a38ef4b5192689edaece41d098135db89d"
-  editor:
-    showInvisibles: true
-    useShadowDOM: true
-    invisibles: {}
-    showIndentGuide: true
-    fontFamily: "Consolas"
-    fontSize: 17
-  core:
-    themes: [
-      "one-dark-ui"
-      "duotone-dark-syntax"
-    ]
-  "spell-check":
-    grammars: [
-      "source.gfm"
-      "text.git-commit"
-      "text.plain"
-    ]
-  whitespace:
-    ignoreWhitespaceOnCurrentLine: false
-  "tree-view":
-    hideIgnoredNames: true
+  Zen:
+    softWrap: true
+    typewriter: true
+  "atom-alignment": {}
+  "atom-css-comb":
+    commonConfigs: "~/.csscomb.json"
+    projectConfigs: ".csscomb.json"
+    readyMadeConfigs: "csscomb"
+  "atom-ternjs":
+    coffeeScript: true
+  "autoclose-html": {}
   autocomplete:
+    includeCompletionsFromAllBuffers: true
+  "autocomplete-plus":
     includeCompletionsFromAllBuffers: true
   autoprefixer:
     browsers: [
       "last 2 versions"
     ]
+  core:
+    themes: [
+      "one-dark-ui"
+      "base16-ocean-dark-spacegray"
+    ]
+  "css-comb":
+    config: "common"
+    userConfig: true
+  dash: {}
+  editor:
+    fontFamily: "Consolas"
+    fontSize: 18
+    invisibles: {}
+    showIndentGuide: true
+    showInvisibles: true
+    useShadowDOM: true
+  "exception-reporting":
+    userId: "eab12bf7-fff7-4cf2-4166-58577e0b841d"
+  "file-icons":
+    onChanges: true
+    tabPaneIcon: false
+  "git-projects":
+    rootPath: "/Users/jonrohan/github; /Users/jonrohan/src"
+    showGitInfo: false
+    sortBy: "Latest modification date"
+  linter:
+    clearOnChange: true
+    gutterPosition: "Left"
+    ignoreMatchedFiles: "/**/*.min{js,css},/**/*.html.erb"
+    lintDebug: false
+    lintOnChange: false
+    showErrorTabFile: false
+    showErrorTabProject: false
+    statusBar: "Show error if the cursor is in range"
+    statusIconScope: "File"
+  "linter-jshint":
+    disableWhenNoJshintrcFileInPath: true
+  "linter-rubocop":
+    command: "/Users/jonrohan/.rbenv/shims/rubocop"
+  "linter-scss-lint":
+    executablePath: "/Users/jonrohan/.rbenv/shims/scss-lint"
+  "linter-write-good": {}
   "markdown-preview":
     grammars: [
       "source.gfm"
@@ -42,44 +67,32 @@
       "text.plain"
       "text.plain.null-grammar"
     ]
-  dash: {}
-  "autocomplete-plus":
-    includeCompletionsFromAllBuffers: true
-  linter:
-    statusBar: "Show error if the cursor is in range"
-    lintDebug: false
-    clearOnChange: true
-    lintOnChange: false
-    gutterPosition: "Left"
-    displayLinterInfo: false
-    showErrorTabProject: false
-    statusIconScope: "File"
-    ignoreMatchedFiles: "/**/*.min{js,css},/**/*.html.erb"
-    showErrorPanel: false
-  "css-comb":
-    userConfig: true
-    config: "common"
-  "autoclose-html": {}
+  metrics:
+    userId: "d80946a38ef4b5192689edaece41d098135db89d"
   minimap:
+    displayCodeHighlights: false
     plugins:
-      "git-diff": false
-      linter: true
       "find-and-replace": true
-  "atom-alignment": {}
-  "linter-scss-lint":
-    executablePath: "/Users/jonrohan/.rbenv/shims/scss-lint"
-  "linter-rubocop":
-    command: "/Users/jonrohan/.rbenv/shims/rubocop"
-  "toggle-quotes": {}
-  "atom-ternjs":
-    coffeeScript: true
-  "file-icons":
-    coloured: false
-    onChanges: true
-  "one-dark-ui": {}
+      "git-diff": true
+      linter: true
+  "one-dark-ui":
+    layoutMode: "Spacious"
+  "release-notes":
+    viewedVersion: "0.95.0"
+  "spell-check":
+    grammars: [
+      "source.gfm"
+      "text.git-commit"
+      "text.plain"
+    ]
   tabs:
+    enableVcsColoring: true
+    showIcons: false
     usePreviewTabs: true
-  "linter-write-good": {}
-  Zen:
-    typewriter: true
-    softWrap: true
+  "toggle-quotes": {}
+  "tree-view":
+    hideIgnoredNames: true
+  welcome:
+    showOnStartup: false
+  whitespace:
+    ignoreWhitespaceOnCurrentLine: false

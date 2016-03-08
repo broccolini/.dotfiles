@@ -6,4 +6,4 @@
 '.html.erb':
   'octicon helper':
     'prefix': 'octh'
-    'body': "<%= octicon(:symbol => '$1') %>"
+    'body': "<%= octicon(:symbol => \"$1\") %>"
