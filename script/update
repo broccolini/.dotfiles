@@ -1,0 +1,10 @@
+#!/bin/sh
+#
+# Update all my tools
+
+set -e
+
+cd "$(dirname $0)"/..
+
+# find the updates and run them iteratively
+find . -name update.sh | while read updater ; do sh -c "${updater}" ; done

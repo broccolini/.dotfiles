@@ -13,4 +13,4 @@ then
   fi
 fi
 
-apm install --packages-file ~/.atom/atom-packages
+apm install -c --packages-file ~/.atom/atom-packages
